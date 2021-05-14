@@ -1,0 +1,60 @@
+<!-- https://bit.ly/3e9Walb -->
+<!-- website link -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice HOckey @ankur</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: black;
+        }
+       
+        canvas{
+           
+            flex-direction: row;
+            background-color: white;
+            display: block;
+            margin:10px auto;
+            border-radius: 4px;
+          
+            
+
+        }
+        canvas:hover{
+            cursor: none;
+        }
+        .board{
+            display: flex;
+            flex-direction: column;
+
+        }
+        h1{
+            text-align: center;
+            font-family: cursive;
+            color:white;
+        }
+        
+        #source{
+            display:none;
+        }
+    </style>
+</head>
+<body>
+    <div class="board">
+        <h1>WELCOME TO Qmigo's Board</h1>
+        <h1 id=score> RED : 0 VS BLUE 0</h1>
+    <canvas id="canvas" width="600" height="500"></canvas>
+    </div>
+    
+    <script src="football.js"></script>
+
+<!-- <script async src="https://drv.tw/inc/wd.js"></script> -->
+</body>
+</html>
